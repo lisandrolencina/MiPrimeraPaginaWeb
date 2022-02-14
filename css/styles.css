@@ -1,0 +1,210 @@
+body{
+	padding: 0;
+	margin: 0;
+	background:url(../imagenes/fondo24.jpg);
+	background-repeat: repeat;
+	background-size: 127px;	
+}
+
+#div-principal{
+	width:1024px;
+	margin:auto;
+	background-color:white;
+	background-image:url(../imagenes/fondo2.jpg);
+	background-repeat: repeat;
+
+}
+
+nav{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+header{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+h1{
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+}
+h1,h2,h3{
+  	font-family: 'Fjalla One', sans-serif;
+}
+h2,h3{
+  font-family: 'Fjalla One', sans-serif;
+    background-color: #000;
+    color:#F7F7AC;
+}
+h3{
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+#nosotros{
+  background-color: black;
+  color:#F7F7AC;
+  display: block;
+  text-decoration: none;
+}
+.destacado{
+color: #FF0000;
+font-style: italic;
+}
+.lista{
+  background-color: #000;
+}
+.lista ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.lista ul li{
+display: inline-block;
+padding: 5px;
+font-size: 17px;
+}
+.lista ul li a{
+  color:#F7F7AC;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.lista ul li a:hover{
+  background-color: #E39E61;
+}
+#lista2{
+  background-color: #000;
+}
+#lista2 ul{
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#lista2 ul li{
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+}
+#lista2 ul li a{
+  color:#F7F7AC;
+  text-decoration: underline;
+  display: block;
+  padding: 10px;
+}
+#lista2 ul li a:hover{
+  background-color: #E39E61;
+}
+.fotos-generales{
+  float: right;
+}
+.contenedor-jujuy{
+	width: 100%;
+	height: 500px;
+	display: flex;
+}
+
+.contenedor-jujuy-1{
+	width: 120%;
+	padding:60px;
+}
+
+.contenedor-jujuy-img{
+	width: 70%;
+	padding:90px;
+}
+.contenedor-humaguaca{
+	width: 100%;
+	height:500px;
+    display: flex;
+}
+.contenedor-humaguaca-1{
+	width:80%;
+	padding:50px;
+}
+.contenedor-humaguaca-img{
+	width: 80%;
+	padding:100px;
+}
+.contenedor-salinas{
+	width: 120%;
+	height: 500px;
+  	display: flex;
+}
+
+.contenedor-salinas-1{
+	width: 80%;
+	padding:50px;
+}
+
+.contenedor-salinas-img{
+	width: 50%;
+	padding: 110px;
+
+}
+
+.contenedor-cuevas{
+	width: 100%;
+	height: 500%;
+  	display: flex;
+}
+
+.contenedor-cuevas-1{
+	width: 80%;
+	padding: 50px;
+}
+.contenedor-cuevas-img{
+	width:80%;
+	padding:100px;
+}
+
+.contenedor-serranias{
+	width: 100%;
+	height: 500%;
+  	display: flex;
+}
+
+.contenedor-serranias-1{
+	width: 60%;
+	padding:50px;
+
+}
+.contenedor-serranias-img{
+	width: 85%;
+	padding:75px;
+}
+
+
+.contenedor-lisandro{
+   width: 100%;
+	height: 100%;
+  	display: flex;
+}
+
+.contenedor-lisandro-1{
+    width: 60%;
+    padding:50px;
+
+}
+
+.contenedor-lisandro-img{
+    width:35%;
+    padding:20px;
+
+}
+
+.contenedor-fran{
+    width: 100%;
+	height: 100%;
+  	display: flex;
+}
+.contenedor-fran-1{
+   width: 60%;
+    padding:50px;
+}
+.contenedor-fran-img{
+    width:75%;
+    padding:100px;
+}
